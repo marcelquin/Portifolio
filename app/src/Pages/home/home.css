@@ -1,0 +1,42 @@
+.box
+{
+    width: 800px;
+    height: 600px;
+}
+.boxInfo
+{
+  color: var(--corTexto);
+  text-align: center;
+  text-transform: uppercase;
+}
+h1
+{
+  font-size: 25px;
+  margin-top: 20px;
+}
+h2
+{
+  font-size: 20px;
+}
+.info
+{
+  font-size: 20px;
+  margin-top: -110px;
+}
+.redessociais
+{
+  width: 800px;
+  height: auto;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.boxSocial
+{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: aliceblue;
+  background-size: cover;
+  margin: 20px;
+}

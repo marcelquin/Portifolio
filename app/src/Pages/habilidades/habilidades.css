@@ -1,0 +1,14 @@
+.box
+{
+
+}
+img
+{
+    width: 250px;
+    height: 250px;
+    border-radius: 20%;
+    border:1px solid rebeccapurple;
+    column-count:3;
+    margin: 10px;
+
+}

@@ -1,0 +1,77 @@
+#root {
+width: 100%;
+height: auto;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+line-height: 2px;
+overflow: hidden;
+--corbackground: #2C3333;
+--corTexto: #CBE4DE;
+--corBordas: #2E4F4F;
+--corHover: #0E8388;
+}
+
+
+
+
+.containergeral
+{
+  display: flex;
+  flex-wrap: nowrap;
+  border:1px solid blue;
+  background-color: var(--corbackground);
+}
+
+.imgperfil
+{
+  width: 30%;
+  height: 700px;
+  margin: 5%;
+  border-radius: 20%;
+  background-size: cover;
+  background-image: url(./imagem/perfil.jpg);
+}
+
+.sessoes
+{
+  width: 65%;
+  height: 700px;
+  margin-top: 5%;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.boxSessao
+{
+  width: 80%;
+  height: 650px;
+  margin: 3%;
+}
+
+nav
+{
+  width: 15%;
+  height: 700px;
+  margin-left: 5%;
+}
+
+
+
+
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+

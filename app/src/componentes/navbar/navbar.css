@@ -1,0 +1,22 @@
+ul,li
+{
+    line-height: 2px;
+    list-style: none;
+}
+
+p,Link
+{
+    font-size: 20px;
+    line-height: 2em;
+    text-transform: uppercase;
+    font-style:oblique;
+    padding-top: 20%;
+    color: var(--corTexto);
+}
+
+p:hover
+{
+    font-style: italic;
+    color: var(--corHover);
+
+}
