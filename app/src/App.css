@@ -19,7 +19,6 @@ overflow: hidden;
 {
   display: flex;
   flex-wrap: nowrap;
-  border:1px solid blue;
   background-color: var(--corbackground);
 }
 

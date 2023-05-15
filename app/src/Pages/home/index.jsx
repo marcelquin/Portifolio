@@ -3,6 +3,15 @@ import '../../App.css'
 import Navbar from '../../componentes/navbar'
 
 function Home(){
+
+  const infoPessoal = {
+    nome: 'Marcel Higor Quinteiro Araujo',
+    idade: 35,
+    prefone: 65,
+    fone: '99672-5190',
+    email:  'quinteiromarcel@gmail.com',
+  };
+
     return(
         <>
               <div className='containergeral'>
@@ -16,15 +25,14 @@ function Home(){
             <div className='boxSessao'>
             <div className='box'>
                   <div className='boxInfo'>
-                    <h1>NOME:</h1>
-                    <h2>IDADE:</h2>
-                    <p className='info'>Fone:</p>
-                    <p className='info'> Email:</p>
+                    <h1>{infoPessoal.nome}</h1>
+                    <h2>{infoPessoal.idade}</h2>
+                    <p className='info'>({infoPessoal.prefone}){infoPessoal.fone}</p>
+                    <p className='info'> {infoPessoal.email}</p>
                     <div className='redessociais'>
                       <div className='boxSocial facebook'></div>
                       <div className='boxSocial instagram'></div>
                       <div className='boxSocial linkedin'></div>
-                      <div className='boxSocial git'></div>
                       <div className='boxSocial git'></div>
                     </div>
                   </div>

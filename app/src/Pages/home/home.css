@@ -16,7 +16,8 @@ h1
 }
 h2
 {
-  font-size: 20px;
+  font-size: 30px;
+  color: rgba(255, 255, 255, 0.87);;
 }
 .info
 {
@@ -39,4 +40,20 @@ h2
   background-color: aliceblue;
   background-size: cover;
   margin: 20px;
+}
+.facebook
+{
+  background-image: url(../../imagem/redesSociais/facebook.png);
+}
+.instagram
+{
+  background-image: url(../../imagem/redesSociais/instagram.png);
+}
+.linkedin
+{
+  background-image: url(../../imagem/redesSociais/linkedin.png);
+}
+.git
+{
+  background-image: url(../../imagem/redesSociais/git.png);
 }
