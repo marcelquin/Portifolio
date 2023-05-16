@@ -2,7 +2,7 @@ import './projetos.css'
 import '../../../App.css'
 import Perfil from '../../../componentes/perfil'
 import Navbar from '../../../componentes/navbar'
-
+import { Link } from 'react-router-dom'
 
 function projetosHome() {
     return (
@@ -12,18 +12,26 @@ function projetosHome() {
                 <Perfil />
 
                 <div className='sessoes'>
-
-                    <div className='boxSessao'>
-                        <div className='box'>
-                            <div className='imgProjeto'><span>Ver mais</span></div>
-                            <div className='imgProjeto'><span>Ver mais</span></div>
-                            <div className='imgProjeto'><span>Ver mais</span></div>
-                            <div className='imgProjeto'><span>Ver mais</span></div>
-                        </div>
-                    </div>
                     <nav>
                         <Navbar />
                     </nav>
+                    <section>
+                        
+                            <div className='imgProjeto doceria'>
+                              <Link to="/Doceria"><span>Ver mais</span></Link>
+                            </div>
+                            <div className='imgProjeto hotel'>
+                                 <Link to="/Hotel"> <span>Ver mais</span></Link>
+                            </div>
+                            <div className='imgProjeto webcurriculo'>
+                               <Link to="/Webcurriculo"> <span>Ver mais</span></Link>
+                            </div>
+
+                            <div className='imgProjeto portifolio'>
+                               <Link to="/Portifolio"> <span>Ver mais</span></Link>
+                            </div>
+                        
+                    </section>
 
                 </div>
 

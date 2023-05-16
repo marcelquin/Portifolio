@@ -4,13 +4,6 @@
 --corBordas: #2E4F4F;
 --corHover: #0E8388;
 }
-.box
-{
-    width: 800px;
-    height: 600px;
-    display: flex;
-    flex-wrap: nowrap;
-}
 
 img
 {

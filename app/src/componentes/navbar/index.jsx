@@ -7,11 +7,11 @@ function Navbar() {
 
     return(
         <>
-            <p> <Link to="/">Home</Link></p>
+            <Link to="/"><span>Home</span></Link>
             
-            <p><Link to="/cursos">Cursos</Link></p>
-            <p><Link to="/habilidades">Habilidades</Link></p>
-            <p><Link to="/projetos">Projetos</Link></p>
+            <Link to="/cursos"> <span>Cursos</span> </Link>
+            <Link to="/habilidades"><span>Habilidades</span></Link>
+            <Link to="/projetos"><span>Projetos</span></Link>
                  
         </>
 

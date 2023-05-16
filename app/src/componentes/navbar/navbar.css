@@ -1,24 +1,12 @@
-ul,li
+span
 {
-    line-height: 2px;
-    list-style: none;
-}
+    font-size: 16px;
+    color: var(--corTexto);
+    padding: 20px;
+    margin-top: 10px;
 
-p,Link
-{
-    font-size: 20px;
-    line-height: 2em;
-    text-transform: uppercase;
-    font-style:oblique;
-    color: #CBE4DE;
-    text-decoration: none;
-    margin-top: 70px;
-    padding-top: 10px;
 }
-
-p,Link:hover
+span:hover
 {
-    font-style: italic;
-    color: var(--corHover);
-    cursor: pointer;
+    color: #0E8388;;
 }

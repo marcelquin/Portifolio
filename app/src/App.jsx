@@ -1,13 +1,15 @@
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import './App.css'
 import Home from './Pages/home'
+import Cursos from './Pages/cursos'
+import Habilidades from './Pages/habilidades'
+
 import HomeProjetos from './Pages/projetos/ProjetosHome'
 import Doceria from './Pages/projetos/Doceria'
 import Hotel from './Pages/projetos/Hotel'
 import WebCurriculo from './Pages/projetos/Webcurriculo'
 import Portifolio from './Pages/projetos/portifolio'
-import Cursos from './Pages/cursos'
-import Habilidades from './Pages/habilidades'
+
 
 
 function App() {
