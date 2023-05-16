@@ -4,12 +4,13 @@
 --corBordas: #2E4F4F;
 --corHover: #0E8388;
 }
-img
+.img
 {
     width: 400px;
     height: 500px;
     border-radius: 20%;
     margin: 10px;
+    border:1px solid blue;
 }
 
 .boxInfo

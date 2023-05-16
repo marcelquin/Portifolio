@@ -13,23 +13,7 @@ function Home() {
     fone: '99672-5190',
     email: 'quinteiromarcel@gmail.com',
   };
-  /*
-   <div className='boxSessao'>
-              <div className='box'>
-                <div className='boxInfo'>
-                  <h1>{infoPessoal.nome}</h1>
-                  <h1>Idade: {infoPessoal.idade}</h1>
-                  <p>({infoPessoal.prefone}){infoPessoal.fone}</p>
-                  <p>{infoPessoal.email}</p>
-                
-                <div className='redessociais'>
-                       <a href='https://www.facebook.com/ursoquinteiro' target='_blank'><div className='boxSocial facebook'></div></a>
-                        <div className='boxSocial instagram'></div>
-                        <div className='boxSocial linkedin'></div>
-                       <a href='https://github.com/marcelquin>' target='_blank'> <div className='boxSocial git'></div></a>
-                </div>
-  
-  */
+
   return (
     <>
       <div className='containergeral'>
@@ -49,7 +33,7 @@ function Home() {
                 
                </div>
                <div className='contato'>
-                  <p>({infoPessoal.prefone}){infoPessoal.fone}</p>
+                  <p><i class="bi bi-envelope-check"></i>({infoPessoal.prefone}){infoPessoal.fone}</p>
                   <p>{infoPessoal.email}</p>
                 </div>
                 <div className='redessociais'>

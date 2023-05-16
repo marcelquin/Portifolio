@@ -1,35 +1,37 @@
 import './doceria.css'
+import Perfil from '../../../componentes/perfil'
+import Navbar from '../../../componentes/navbar'
 
 
-function Doceria(){
-    return(
+function Doceria() {
+    return (
         <>
-                 <div className='containergeral'>
+            <div className='containergeral'>
 
-<Perfil />
+                <Perfil />
 
-<div className='sessoes'>
-    <nav>
-        <Navbar />
-    </nav>
-    <section>
+                <div className='sessoes'>
+                    <nav>
+                        <Navbar />
+                    </nav>
+                    <section>
 
-        <div className='box'>
-            <img></img>
-            <div className='boxInfo'>
-                <h2>Doceria</h2>
-                <span>Descrição</span>
-                <div className='tec'>
-                    <img className='imgtec'></img>
-                    <img className='imgtec'></img>
-                    <img className='imgtec'></img>
+
+                        <div className='img'></div>
+                        <div className='boxInfo'>
+                            <h2>Doceria</h2>
+                            <span>Descrição</span>
+                            <div className='tec'>
+                                <img className='imgtec'></img>
+                                <img className='imgtec'></img>
+                                <img className='imgtec'></img>
+                            </div>
+                        </div>
+
+
+                    </section>
                 </div>
             </div>
-        </div>
-
-    </section>
-</div>
-</div>
         </>
     )
 }

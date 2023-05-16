@@ -1,5 +1,6 @@
 import './Portifolio.css'
-
+import Perfil from '../../../componentes/perfil'
+import Navbar from '../../../componentes/navbar'
 
 function Portifolio(){
     return(
@@ -14,8 +15,8 @@ function Portifolio(){
     </nav>
     <section>
 
-        <div className='box'>
-            <img></img>
+
+    <div className='img'></div>
             <div className='boxInfo'>
                 <h2>Doceria</h2>
                 <span>Descrição</span>
@@ -25,7 +26,7 @@ function Portifolio(){
                     <img className='imgtec'></img>
                 </div>
             </div>
-        </div>
+
 
     </section>
 </div>
