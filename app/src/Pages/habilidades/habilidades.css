@@ -1,14 +1,23 @@
 .box
 {
-
+    width: 800px;
+    height: 600px;
 }
 img
 {
-    width: 250px;
-    height: 250px;
+    width: 230px;
+    height: 230px;
     border-radius: 20%;
-    border:1px solid rebeccapurple;
     column-count:3;
+    column-gap: 5px;
     margin: 10px;
-
+    background-size: cover;
+    border:1px solid black;
 }
+
+.html{background-image: url(../../imagem/habilidades/html.png);}
+.css{ background-image: url(../../imagem/habilidades/css.png);}
+.js{background-image: url(../../imagem/habilidades/java.png);}
+.ps{background-image: url(../../imagem/habilidades/photoshop.png);}
+.react{background-image: url(../../imagem/habilidades/react.png);}
+.vite{background-image: url(../../imagem/habilidades/vite.png);}

@@ -10,13 +10,15 @@ p,Link
     line-height: 2em;
     text-transform: uppercase;
     font-style:oblique;
-    padding-top: 20%;
-    color: var(--corTexto);
+    color: #CBE4DE;
+    text-decoration: none;
+    margin-top: 70px;
+    padding-top: 10px;
 }
 
-p:hover
+p,Link:hover
 {
     font-style: italic;
     color: var(--corHover);
-
+    cursor: pointer;
 }

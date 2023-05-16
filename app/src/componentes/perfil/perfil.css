@@ -1,0 +1,9 @@
+.imgperfil
+{
+  width: 30%;
+  height: 700px;
+  margin: 5%;
+  border-radius: 20%;
+  background-size: cover;
+  background-image: url(../../imagem/perfil.jpg);
+}
