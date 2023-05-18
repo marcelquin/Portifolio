@@ -3,6 +3,11 @@ import Perfil from '../../../componentes/perfil'
 import Navbar from '../../../componentes/navbar'
 
 function Webcurriculo() {
+
+    const infoprojeto ={
+        nomeprojeto: 'WEB Curriculo',
+        descrisao: 'Feito com tecnicas de HTML5, CSS3, Flex, React, vite, dentre outras pronta para adição de recursos backend,',
+      };
     return (
         <>
             <div className='containergeral'>
@@ -16,14 +21,15 @@ function Webcurriculo() {
                     <section>
 
 
-                    <div className='img'></div>
+                    <div className='imgWebC '></div>
                             <div className='boxInfo'>
-                                <h2>Doceria</h2>
-                                <span>Descrição</span>
-                                <div className='tec'>
-                                    <img className='imgtec'></img>
-                                    <img className='imgtec'></img>
-                                    <img className='imgtec'></img>
+                            <h2>{infoprojeto.nomeprojeto}</h2>
+                            <span>{infoprojeto.descrisao}</span>
+                            <div className='tec'>
+                                <img className='imgtec html'></img>
+                                <img className='imgtec css'></img>
+                                <img className='imgtec vite'></img>
+                                <img className='imgtec react'></img>
                                 </div>
                             </div>
 

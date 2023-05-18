@@ -10,12 +10,13 @@
 .bloco
 {
     width:250px;
-    height: 180px;
+    height: 220px;
     border: 1px solid black;
     overflow: auto;
-    margin: 10PX;
-    background-color: cadetblue;
+    margin: 3PX;
     text-align: center;
+    background-size: cover;
+    opacity: 0.4;
 }
 .bloco:hover
 {
@@ -24,18 +25,62 @@
 }
 h3
 {
-    font-size: 18px;
-    color: #CBE4DE;;
+    font-size: 20px;
+    color: black;
     line-height: 20PX;
+    text-shadow: 2px 2px #CBE4DE;
 }
-a
+.bloco a
 {
     font-size: 40px;
     text-decoration: none;
     list-style: none;
+    visibility: hidden;
 }
-a:hover
+.bloco a:hover
 {
-    color: #CBE4DE;
     visibility: visible;
+    color: #2E4F4F;;
+}
+
+.fid
+{
+    background-image: url(../../imagem/certificados/sistemafid.png);
+}
+
+.udemy1
+{
+    background-image: url(../../imagem/certificados/htm5css3udemy.jpg);
+}
+.udemy3
+{
+background-image: url(../../imagem/certificados/javacompletoudemy.jpg);
+}
+.udemy4
+{
+background-image: url(../../imagem/certificados/javaspringudemy.jpg);
+}
+.iped1
+{
+    background-image: url(../../imagem/certificados/phpmysqliped.png);
+}
+.iped2
+{
+    background-image: url(../../imagem/certificados/ipedhtml.png);
+}
+.brava
+{
+    background-image: url(../../imagem/certificados/html5brava.png);
+}
+.soft
+{
+    background-image: url(../../imagem/certificados/mysqlsofyblue.png);
+}
+.ensinon1
+{
+    background-image: url(../../imagem/certificados/html5en.png);
+}
+.ensinon2
+{
+   background-image: url(../../imagem/certificados/phpen.png);
 }

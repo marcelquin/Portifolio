@@ -2,35 +2,41 @@ import './Portifolio.css'
 import Perfil from '../../../componentes/perfil'
 import Navbar from '../../../componentes/navbar'
 
-function Portifolio(){
-    return(
+function Portifolio() {
+    const infoprojeto ={
+        nomeprojeto: 'PORTIFÓLIO',
+        descrisao: 'Feito com tecnicas de HTML5, CSS3, Flex, React, vite, dentre outras pronta para adição de recursos backend,',
+      };
+
+    return (
         <>
-                 <div className='containergeral'>
+            <div className='containergeral'>
 
-<Perfil />
+                <Perfil />
 
-<div className='sessoes'>
-    <nav>
-        <Navbar />
-    </nav>
-    <section>
+                <div className='sessoes'>
+                    <nav>
+                        <Navbar />
+                    </nav>
+                    <section>
 
 
-    <div className='img'></div>
-            <div className='boxInfo'>
-                <h2>Doceria</h2>
-                <span>Descrição</span>
-                <div className='tec'>
-                    <img className='imgtec'></img>
-                    <img className='imgtec'></img>
-                    <img className='imgtec'></img>
+                        <div className='imgPort'></div>
+                        <div className='boxInfo'>
+                            <h2>{infoprojeto.nomeprojeto}</h2>
+                            <span>{infoprojeto.descrisao}</span>
+                            <div className='tec'>
+                                <img className='imgtec html'></img>
+                                <img className='imgtec css'></img>
+                                <img className='imgtec vite'></img>
+                                <img className='imgtec react'></img>
+                            </div>
+                        </div>
+
+
+                    </section>
                 </div>
             </div>
-
-
-    </section>
-</div>
-</div>
         </>
     )
 }

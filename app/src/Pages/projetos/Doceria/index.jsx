@@ -4,6 +4,12 @@ import Navbar from '../../../componentes/navbar'
 
 
 function Doceria() {
+
+    const infoprojeto ={
+        nomeprojeto: 'DOCERIA',
+        descrisao: 'Feito com tecnicas de HTML5, CSS3, Flex, apto para futuras atualizações backend.',
+      };
+
     return (
         <>
             <div className='containergeral'>
@@ -19,12 +25,12 @@ function Doceria() {
 
                         <div className='img'></div>
                         <div className='boxInfo'>
-                            <h2>Doceria</h2>
-                            <span>Descrição</span>
+                            <h2>{infoprojeto.nomeprojeto}</h2>
+                            <span>{infoprojeto.descrisao}</span>
                             <div className='tec'>
-                                <img className='imgtec'></img>
-                                <img className='imgtec'></img>
-                                <img className='imgtec'></img>
+                                <img className='imgtec html'></img>
+                                <img className='imgtec css'></img>
+                                <img className='imgtec vite'></img>
                             </div>
                         </div>
 

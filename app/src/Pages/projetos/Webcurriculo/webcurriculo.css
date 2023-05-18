@@ -12,13 +12,14 @@
     flex-wrap: nowrap;
 }
 
-.img
+.imgWebC
 {
     width: 400px;
     height: 500px;
     border-radius: 20%;
     margin: 10px;
-    border:1px solid blue;
+    background-size: cover;
+    background-image: url(../../../imagem/projetos/webcurriculo.PNG);
 }
 
 .boxInfo

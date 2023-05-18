@@ -40,6 +40,7 @@
     width: 300px;
     height: auto;
     margin:0 auto;
+    padding-top: 20px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -47,7 +48,22 @@
 }
 .imgtec
 {
-    width: 50px;
-    height: 50px;
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
+    background-size: cover;
+    margin: 10px;
+    border:1px solid #CBE4DE;
+}
+.html
+{
+    background-image: url(../../../imagem/tecs/htmltec.png);
+}
+.css
+{
+    background-image: url(../../../imagem/tecs/csstec.png);
+}
+.vite
+{
+    background-image: url(../../../imagem/tecs/vitetec.png);
 }
