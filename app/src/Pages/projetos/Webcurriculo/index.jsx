@@ -31,6 +31,7 @@ function Webcurriculo() {
                                 <img className='imgtec vite'></img>
                                 <img className='imgtec react'></img>
                                 </div>
+                                <h3><a href='https://github.com/marcelquin/webcurriculo_react' target='_blank'>GIT</a></h3>
                             </div>
 
 

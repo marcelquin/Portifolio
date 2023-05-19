@@ -31,6 +31,7 @@ function Portifolio() {
                                 <img className='imgtec vite'></img>
                                 <img className='imgtec react'></img>
                             </div>
+                            <h3><a href='https://github.com/marcelquin/Portifolio' target='_blank'>GIT</a></h3>
                         </div>
 
 

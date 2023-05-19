@@ -81,7 +81,7 @@ function Cursos() {
                             <h3>{instFID.inst}</h3>
                             <h3>{instFID.curso}</h3>
                             <h3>Ano:{instFID.ano}</h3>
-                            <a href='#' target='_blank'>Certificado</a>
+                            <a href='' target='_blank'>Certificado</a>
                             </div>
                             
                             <div className='bloco udemy1'>

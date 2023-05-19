@@ -11,8 +11,8 @@
     height: 500px;
     border-radius: 20%;
     margin: 10px;
-    background-size: cover;
-   background-color: #CBE4DE;
+    background-size: 248%;
+   background-image: url(../../../imagem/projetos/portifolio.png);
 }
 
 .boxInfo
@@ -36,6 +36,14 @@
     color: var(--corTexto);
     font-size: 20px;
     line-height: 2em;
+}
+.boxInfo h3
+{
+    font-size: 25px;
+}
+.boxInfo h3:hover
+{
+    color: var(--corHover);
 }
 .tec
 {

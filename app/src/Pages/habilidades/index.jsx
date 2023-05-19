@@ -29,7 +29,8 @@ function Habilidades() {
                             <div className='hbox react'></div>
                             <div className='hbox vite'></div>
                             <div className='hbox js'></div>
-                       
+                            <div className='hbox ps'></div>
+                            <div className='hbox git'></div>
                     </section>
 
 

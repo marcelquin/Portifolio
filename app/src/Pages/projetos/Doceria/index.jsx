@@ -23,7 +23,7 @@ function Doceria() {
                     <section>
 
 
-                        <div className='img'></div>
+                        <div className='imgdoceria'></div>
                         <div className='boxInfo'>
                             <h2>{infoprojeto.nomeprojeto}</h2>
                             <span>{infoprojeto.descrisao}</span>
@@ -32,6 +32,7 @@ function Doceria() {
                                 <img className='imgtec css'></img>
                                 <img className='imgtec vite'></img>
                             </div>
+                            <h3><a href='https://github.com/marcelquin/doceria' target='_blank'>GIT</a></h3>
                         </div>
 
 

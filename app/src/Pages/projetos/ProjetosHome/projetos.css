@@ -17,13 +17,41 @@
     margin: 30px;
     text-align: center;
     justify-items: center;
+    background-size: cover;
 }
-span
+.verMais
 {
-    color: white;
-    font-size: 30px;
+    color: #CBE4DE;
+    font-size: 25px;
+    font-weight: 500;
+    background-color: #2E4F4F;
+    border-radius: 30%;
 }
-span:hover
+.verMais:hover
 {
     cursor: pointer;
+    background-color: #0E8388;
+    color: black;
+}
+
+.webcurriculo
+{
+    background-image: url(../../../imagem/projetos/webcurriculo.PNG);
+}
+
+.doceria
+{
+    background-image: url(../../../imagem/projetos/doceria.png);
+}
+
+.siteComercial
+{
+    background-image: url(../../../imagem/projetos/siteComercial.png);
+}
+
+.portifolio
+{
+    width: 270px;
+    height: 250px;
+    background-image: url(../../../imagem/projetos/portifolio.png);
 }

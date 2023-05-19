@@ -4,13 +4,15 @@
 --corBordas: #2E4F4F;
 --corHover: #0E8388;
 }
-.img
+.imgSiteC
 {
     width: 400px;
     height: 500px;
     border-radius: 20%;
     margin: 10px;
     border:1px solid blue;
+    background-image: url(../../../imagem/projetos/siteComercial.png);
+    background-size: cover;
 }
 
 .boxInfo
@@ -34,6 +36,14 @@
     color: var(--corTexto);
     font-size: 20px;
     line-height: 2em;
+}
+.boxInfo h3
+{
+    font-size: 25px;
+}
+.boxInfo h3:hover
+{
+    color: var(--corHover);
 }
 .tec
 {

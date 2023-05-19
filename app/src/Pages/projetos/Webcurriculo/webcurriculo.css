@@ -44,6 +44,14 @@
     font-size: 20px;
     line-height: 2em;
 }
+.boxInfo h3
+{
+    font-size: 25px;
+}
+.boxInfo h3:hover
+{
+    color: var(--corHover);
+}
 .tec
 {
     width: 300px;

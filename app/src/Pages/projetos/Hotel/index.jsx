@@ -5,7 +5,7 @@ import Navbar from '../../../componentes/navbar'
 function Hotel() {
 
     const infoprojeto ={
-        nomeprojeto: 'HOTEL',
+        nomeprojeto: 'SITE COMERCIAL',
         descrisao: 'Feito com tecnicas de HTML5, CSS3, Flex, apto para futuras atualizações backend.',
       };
 
@@ -23,7 +23,7 @@ function Hotel() {
                     <section>
 
 
-                        <div className='img'></div>
+                        <div className='imgSiteC'></div>
                         <div className='boxInfo'>
                         <h2>{infoprojeto.nomeprojeto}</h2>
                             <span>{infoprojeto.descrisao}</span>
@@ -32,6 +32,7 @@ function Hotel() {
                                 <img className='imgtec css'></img>
                                 <img className='imgtec vite'></img>
                             </div>
+                            <h3><a href='https://github.com/marcelquin/site_hotel' target='_blank'>GIT</a></h3>
                             
                         </div>
 
