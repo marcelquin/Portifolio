@@ -9,10 +9,10 @@
     background-size: cover;
 }
 
-.html{background-image: url(../../imagem/habilidades/html.png);}
-.css{ background-image: url(../../imagem/habilidades/css.png);}
-.js{background-image: url(../../imagem/habilidades/java.png);}
-.ps{background-image: url(../../imagem/habilidades/photoshop.png);}
-.react{background-image: url(../../imagem/habilidades/react.png);}
-.vite{background-image: url(../../imagem/habilidades/vite.png);}
-.git{background-image: url(../../imagem/habilidades/gitrub.png);}
+section .html{background-image: url(../../imagem/habilidades/html.png);}
+section .css{ background-image: url(../../imagem/habilidades/css.png);}
+section .js{background-image: url(../../imagem/habilidades/java.png);}
+section .ps{background-image: url(../../imagem/habilidades/photoshop.png);}
+section .react{background-image: url(../../imagem/habilidades/react.png);}
+section .vite{background-image: url(../../imagem/habilidades/vite.png);}
+section .git{background-image: url(../../imagem/habilidades/gitrub.png);}
