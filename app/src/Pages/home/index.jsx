@@ -40,7 +40,7 @@ function Home() {
                 <a href='https://www.facebook.com/ursoquinteiro' target='_blank'><div className='boxSocial facebook'></div></a>
                <a href='https://instagram.com/marcelquinteiro9?igshid=MzNlNGNkZWQ4Mg==' target='_blank'> <div className='boxSocial instagram'></div></a>
                <a href='https://www.linkedin.com/in/marcel-quinteiro-b92111256/' target='_blank'><div className='boxSocial linkedin'></div></a>
-                <a href='https://github.com/marcelquin>' target='_blank'> <div className='boxSocial git'></div></a>
+                <a href='https://github.com/marcelquin' target='_blank'> <div className='boxSocial git'></div></a>
                 </div>
 
           </section>
