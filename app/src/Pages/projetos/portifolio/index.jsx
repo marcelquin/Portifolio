@@ -32,8 +32,9 @@ function Portifolio() {
                                 <img className='imgtec react'></img>
                             </div>
                             <h3><a href='https://github.com/marcelquin/Portifolio' target='_blank'>GIT</a></h3>
+                            <h3><a href='https://github.com/marcelquin/portifolio2_angular' target='_blank'>GIT Angualar</a></h3>
                         </div>
-
+                        
 
                     </section>
                 </div>

@@ -65,7 +65,7 @@ function Cursos() {
       
       const instensinon={
         inst: 'ensino nacional',
-        curso: 'CURSO DE HTML5', //10
+        curso: 'CURSO DE HTML', //10
         linkcurso1:'https://drive.google.com/file/d/1PO33EN2-NZjgEWru8LrjUihIm_iLZsF3/view?usp=share_link',
         curso2: 'CURSO DE PHP', //11
         linkcurso2:'https://drive.google.com/file/d/1Cmbnhfk6V8kOBJAaVzYKf-8Wd-dMVZ_m/view?usp=share_link',
@@ -73,17 +73,7 @@ function Cursos() {
         curso4: 'curso de informatica na educação',
         ano: 2011, 
       };
-      // html5 udemy https://drive.google.com/file/d/1p96IV4GtOvrge4s8wGO1G9dFlIKIZlZb/view?usp=share_link
-      // html5 brava https://drive.google.com/file/d/1305Y0V9y18-LXi9C1GISwONrQNPoTQb6/view?usp=sharing
-      /* html5 en https://drive.google.com/file/d/1PO33EN2-NZjgEWru8LrjUihIm_iLZsF3/view?usp=share_link
-         htmliped https://drive.google.com/file/d/1p51dpc0onCLOnZBD6eDIlaFiWUF4VQhv/view?usp=share_link
-        java completo udemy https://drive.google.com/file/d/10YYNVCXbKe_MZlt8_R25Ym8YXInP1rnm/view?usp=share_link
-        java sprong udemy https://drive.google.com/file/d/1ZBWF_0QY5NJE0qORK02EtfwahUCB5L8w/view?usp=share_link
-        mysql softblue https://drive.google.com/file/d/1piPs4DFBc8NlCLxwXPGMCpn7ca_IPbhn/view?usp=share_link
-        phpen https://drive.google.com/file/d/1Cmbnhfk6V8kOBJAaVzYKf-8Wd-dMVZ_m/view?usp=share_link
-        phpiped https://drive.google.com/file/d/1022nFlT5vsmPk4TDbpHsCsqdwlTEJLsG/view?usp=share_link
-        diplomafid https://drive.google.com/file/d/1Khmxis7f7lkyyuDWl4FBQZfcZGJ781ou/view?usp=share_link
-      */
+
       return (
         <>
             <div className='containergeral'>
@@ -102,77 +92,77 @@ function Cursos() {
                             <h3>{instFID.inst}</h3>
                             <h3>{instFID.curso}</h3>
                             <h3>Ano:{instFID.ano}</h3>
-                            <a href='https://drive.google.com/file/d/1Khmxis7f7lkyyuDWl4FBQZfcZGJ781ou/view?usp=share_link' target='_blank'>Diploma</a>
+                            <a href='https://drive.google.com/file/d/1ZPHRZFHs4G9MrJPf94ruMzPI_ClXGJcs/view?usp=sharing' target='_blank' className='faculdade'>Diploma</a>
                             </div>
                             
                             <div className='bloco udemy1'>
                             <h3>{insudemy.inst}</h3>
                             <h3>{insudemy.curso3}</h3>
                             <h3>Ano:{insudemy.ano} </h3>
-                            <a href='https://drive.google.com/file/d/1p96IV4GtOvrge4s8wGO1G9dFlIKIZlZb/view?usp=share_link' target='_blank'>Certificado</a>
+                            <a href='https://drive.google.com/file/d/1p96IV4GtOvrge4s8wGO1G9dFlIKIZlZb/view?usp=sharing' target='_blank' className='faculdade'>Certificado</a>
                             </div>
 
                             <div className='bloco udemy2'>
                             <h3>{insudemy.inst}</h3>
                             <h3>{insudemy.curso4}</h3>
                             <h3>Ano:{insudemy.ano} </h3>
-                            <a href='#' target='_blank'>Certificado</a>
+                            <a href='' target='_blank' className='faculdade'>Certificado</a>
                             </div>
 
                             <div className='bloco udemy3'>
                             <h3>{insudemy.inst}</h3>
                             <h3>{insudemy.curso}</h3>
-                            <h3>Ano:{insudemy.ano} </h3>
-                            <a href='https://drive.google.com/file/d/10YYNVCXbKe_MZlt8_R25Ym8YXInP1rnm/view?usp=share_link' target='_blank'>Certificado</a>
+                            <h3>Ano:{insudemy.ano} </h3> 
+                            <a href='https://drive.google.com/file/d/10YYNVCXbKe_MZlt8_R25Ym8YXInP1rnm/view?usp=sharing' target='_blank' className='faculdade'>Certificado</a>
                             </div>
 
                             <div className='bloco udemy4'>
                             <h3>{insudemy.inst}</h3>
                             <h3>{insudemy.curso2}</h3>
                             <h3>Ano:{insudemy.ano} </h3>
-                            <a href='https://drive.google.com/file/d/1ZBWF_0QY5NJE0qORK02EtfwahUCB5L8w/view?usp=share_link' target='_blank'>Certificado</a>
+                            <a href='https://drive.google.com/file/d/1ZBWF_0QY5NJE0qORK02EtfwahUCB5L8w/view?usp=sharing' target='_blank' className='faculdade'>Certificado</a>
                             </div>                         
 
                             <div className='bloco iped1'>
                             <h3>{instiped.inst}</h3>
                             <h3>{instiped.curso}</h3>
                             <h3>Ano:{instiped.ano}</h3>
-                            <a href='https://drive.google.com/file/d/1022nFlT5vsmPk4TDbpHsCsqdwlTEJLsG/view?usp=share_link' target='_blank'>Certificado</a>
+                            <a href='https://drive.google.com/file/d/1fFVUMWIbxqUJQntgOt6OUoVFHaaAYb1X/view?usp=sharing' target='_blank'>Certificado</a>
                             </div>
 
                             <div className='bloco iped2'>
                             <h3>{instiped.inst}</h3>
                             <h3>{instiped.curso2}</h3>
                             <h3>Ano:{instiped.ano}</h3>
-                            <a href='https://drive.google.com/file/d/1p51dpc0onCLOnZBD6eDIlaFiWUF4VQhv/view?usp=share_link' target='_blank'>Certificado</a>
+                            <a href='https://drive.google.com/file/d/1bmLQ3SaFQFpWlrV19Joa5eZNh5KnoL8T/view?usp=sharing' target='_blank' className='faculdade'>Certificado</a>
                             </div>
 
                             <div className='bloco brava'>
                             <h3>{instbrava.inst}</h3>
                             <h3>{instbrava.curso}</h3>
                             <h3>Ano:{instbrava.ano}</h3>
-                            <a href='https://drive.google.com/file/d/1305Y0V9y18-LXi9C1GISwONrQNPoTQb6/view?usp=sharing' target='_blank'>Certificado</a>
+                            <a href='https://drive.google.com/file/d/15lIosh1qeZog4I_DXMz2JMXAAOguwlmA/view?usp=sharing' target='_blank' className='faculdade'>Certificado</a>
                             </div>
 
                             <div className='bloco soft'>
                             <h3>{instsoftblue.inst}</h3>
                             <h3>{instsoftblue.curso}</h3>
                             <h3>Ano:{instsoftblue.ano}</h3>
-                            <a href=' https://drive.google.com/file/d/1piPs4DFBc8NlCLxwXPGMCpn7ca_IPbhn/view?usp=share_link' target='_blank'>Certificado</a>
+                            <a href='https://drive.google.com/file/d/1qzFb3rDcpisdB8iJQYapKuSAzqLlmI2F/view?usp=sharing' target='_blank' className='faculdade'>Certificado</a>
                             </div>
 
                             <div className='bloco ensinon1'>
                             <h3>{instensinon.inst}</h3>
                             <h3>{instensinon.curso}</h3>
                             <h3>Ano:{instensinon.ano}</h3>
-                            <a href='https://drive.google.com/file/d/1PO33EN2-NZjgEWru8LrjUihIm_iLZsF3/view?usp=share_link' target='_blank'>Certificado</a>
+                            <a href='https://drive.google.com/file/d/15-AsgMLEolIKpHmraCm85UigB63oQGv0/view?usp=sharing' target='_blank' className='faculdade'>Certificado</a>
                             </div>
 
                             <div className='bloco ensinon2'>
                             <h3>{instensinon.inst}</h3>
                             <h3>{instensinon.curso2}</h3>
                             <h3>Ano:{instensinon.ano}</h3>
-                            <a href=' https://drive.google.com/file/d/1Cmbnhfk6V8kOBJAaVzYKf-8Wd-dMVZ_m/view?usp=share_link' target='_blank'>Certificado</a>
+                            <a href='https://drive.google.com/file/d/13fFRouutFOlLrbeQzE0wEnuEMOFP752s/view?usp=sharing' target='_blank' className='faculdade'>Certificado</a>
                             </div>
 
 
